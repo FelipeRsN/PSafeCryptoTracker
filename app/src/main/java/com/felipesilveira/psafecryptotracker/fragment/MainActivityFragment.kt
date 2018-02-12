@@ -15,7 +15,7 @@ import com.felipesilveira.psafecryptotracker.connection.ConnectionInterface
 import com.felipesilveira.psafecryptotracker.item.CryptoCardListHeader
 import com.felipesilveira.psafecryptotracker.item.CryptoCardListItem
 import com.felipesilveira.psafecryptotracker.model.CryptoModel
-import com.felipesilveira.psafecryptotracker.model.DBLiteConnection
+import com.felipesilveira.psafecryptotracker.sqlite.DBLiteConnection
 import com.felipesilveira.psafecryptotracker.utils.App
 import com.mikepenz.fastadapter.IItem
 import com.mikepenz.fastadapter.adapters.ItemAdapter

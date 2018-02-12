@@ -4,7 +4,7 @@ import android.app.job.JobParameters
 import android.app.job.JobService
 import android.util.Log
 import com.felipesilveira.psafecryptotracker.model.CryptoModel
-import com.felipesilveira.psafecryptotracker.model.DBLiteConnection
+import com.felipesilveira.psafecryptotracker.sqlite.DBLiteConnection
 import com.felipesilveira.psafecryptotracker.utils.App
 import retrofit2.Call
 import retrofit2.Callback

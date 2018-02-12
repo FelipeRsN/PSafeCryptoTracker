@@ -1,9 +1,9 @@
-package com.felipesilveira.psafecryptotracker.model
+package com.felipesilveira.psafecryptotracker.sqlite
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
-import com.felipesilveira.psafecryptotracker.sqlite.DBCore
+import com.felipesilveira.psafecryptotracker.model.CryptoModel
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import org.json.JSONArray

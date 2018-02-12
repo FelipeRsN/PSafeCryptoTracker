@@ -5,7 +5,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.TextView
 import com.felipesilveira.psafecryptotracker.R
-import com.felipesilveira.psafecryptotracker.model.DBLiteConnection
+import com.felipesilveira.psafecryptotracker.sqlite.DBLiteConnection
 import com.mikepenz.fastadapter.items.AbstractItem
 import java.text.SimpleDateFormat
 

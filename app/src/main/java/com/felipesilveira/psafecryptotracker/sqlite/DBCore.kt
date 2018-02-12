@@ -13,7 +13,7 @@ class DBCore private constructor(ctx: Context) : SQLiteOpenHelper(ctx, DB_NAME, 
     companion object {
         private var db: DBCore? = null
         private val DB_NAME = "PSafeCryptoLocalBase"
-        private val DB_VERSION = 2
+        private val DB_VERSION = 1
 
         fun getInstance(ctx: Context): DBCore? {
             if (db == null) db = DBCore(ctx)
